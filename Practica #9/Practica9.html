@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Practica #9</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form>
+
+            <div class="form-group">
+
+                <label for="control1">Seleccione un elemento</label>
+
+                <select class="form-control" id="control1" name="control1">
+
+                    <option>klk</option>
+                    <option>angel</option>
+                    <option>asi</option>
+                    <option>lo</option>
+                    <option>quiere</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="control2">Seleccione varios elementos</label>
+
+                <select multiple class="form-control" id="control2" name="control2">
+
+                    <option>klk</option>
+                    <option>angel</option>
+                    <option>asi</option>
+                    <option>lo</option>
+                    <option>quiere</option>
+
+                </select>
+
+            </div>
+
+            <button type="submit" class="btn btn-default">Enviar</button>
+
+        </form>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="container">
+
+            <form>
+
+                <div class="form-group row">
+
+                    <label for="usuario" class="col-lg-3 col-form-label">Nombre:</label>
+
+                    <div class="col-lg-9">
+
+                        <input type="text" class="form-control" id="usuario">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="clave" class="col-lg-3 col-form-label">contraseña:</label>
+
+                    <div class="col-lg-9">
+
+                        <input type="password" class="form-control" id="clave">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <div class="offset-lg-3 col-lg-9">
+
+                        <button type="submit" class="btn btn-default">iniciar sesion</button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <h1>para mas informacion depositeme</h1>
+
+        <form class="form-inline">
+
+            <label for="mail" class="mr-sm-2">cuenta bancaria:</label>
+
+            <input type="email" class="form-control mr-sm-2" id="mail">
+
+            <div class="form-check">
+
+                <label class="form-check-label">
+
+                    <input type="checkbox" class="form-check-input mr-sm-2"> Acepta términos
+
+                </label>
+
+            </div>
+
+            <button type="submit" class="btn btn-default ml-sm-2">iniciar</button>
+
+        </form>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <p><strong>Tamaño pequeño</strong></p>
+
+        <form>
+
+            <div class="form-group">
+
+                <label for="nombre2">nombre:</label>
+
+                <input type="text" class="form-control form-control-sm" id="nombre2" name="nombre2">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="clave2">clave:</label>
+
+                <input type="password" class="form-control form-control-sm" id="clave2" name="clave2">
+
+            </div>
+
+            <button type="submit" class="btn btn-default">Enviar</button>
+
+        </form>
+
+        <p><strong>Tamaño grande</strong></p>
+
+        <form>
+
+            <div class="form-group">
+
+                <label for="nombre3">nombre:</label>
+
+                <input type="text" class="form-control form-control-lg" id="nombre3" name="nombre3">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="clave3">clave:</label>
+                <input type="password" class="form-control form-control-lg" id="clave3" name="clave3">
+
+            </div>
+
+            <button type="submit" class="btn btn-default">Enviar</button>
+
+        </form>
+
+        <p><strong>Tamaño normal</strong></p>
+
+        <form>
+
+            <div class="form-group">
+
+                <label for="nombre">nombre:</label>
+
+                <input type="text" class="form-control" id="nombre" name="nombre">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="clave">clave:</label>
+
+                <input type="password" class="form-control" id="clave" name="clave">
+
+            </div>
+
+            <button type="submit" class="btn btn-default">Enviar</button>
+
+        </form>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <form>
+
+          <div class="form-group"> 
+
+            <label for="nombre">nombre:</label>
+
+            <input type="text" class="form-control" id="nombre" name="nombre">
+
+            <small class"form-text text-muted">todo pegado pls.</small> 
+
+          </div> 
+
+          <div class="form-group">
+
+            <label for="clave">clave:</label>
+
+            <input type="password" class="form-control" id="clave" name="clave">
+
+            <small class"form-text text-muted">
+                
+                hazlo largo para que no te roben
+
+            </small>
+
+          </div> 
+
+          <button type="submit" class="btn btn-default">Enviar</button> 
+
+        </form>
+    
+      </div> 
+
+      <hr>
+
+      <div class="container">
+
+        <form>
+
+          <fieldset disabled> 
+
+            <div class="form-group">
+
+              <label for="usuario">Nombre:</label>
+
+              <input type="text" class="form-control" id="usuario" name="usuario">
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="clave">clave:</label>
+
+              <input type="password" class="form-control" id="clave" name="clave">
+
+            </div>
+
+          </fieldset>
+
+          <div class="form-check">
+
+            <input disabled class="form-check-input" type="checkbox" value="" id="checkbox1" name="checkbox1">
+
+            <label class="form-check-label" for="checkbox1">
+
+              Acepta mis términos 
+
+            </label>
+
+          </div>   
+
+          <button type="submit" class="btn btn-default">Entrar</button>  
+
+        </form>
+      
+      </div> 
+
+      <hr>
+
+      <div class="container">
+
+        <form>
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-primary">
+
+            btn-primary : Es un botón que se destaca entre un conjunto de botones.</button> 
+
+          </div> 
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-secondary">
+
+            btn-secondary : Es un botón no tan importante como btn-primary.</button> 
+
+          </div>       
+
+          <div class="form-group">
+
+            <button type="submit" class="btn-outline-success">
+
+            btn-success : Se utiliza para indicar una acción exitosa.</button> 
+
+          </div> 
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-info">
+
+            btn-info : Es un botón para información.</button> 
+
+          </div> 
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-warning">
+
+            btn-warning : Es un botón que nos informa que debemos tener 
+            cuidado con la acción que tiene asociado el botón.
+
+        </button>       
+
+          </div> 
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-danger">
+
+            btn-danger : Indica que la acción que tiene asociado el botón 
+            es peligrosa.
+
+        </button>    
+
+          </div> 
+
+          <div class="form-group">
+
+            <button type="submit" class="btn-outline-dark">
+
+            btn-dark : Muestra un botón oscuro.
+
+        </button>       
+
+          </div>  
+               
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-light">
+
+            btn-light : Muestra un botón claro.
+
+        </button>  
+
+          </div>   
+
+          <div class="form-group">
+
+            <button type="submit" class="btn btn-link">
+
+            btn-link : Convierte al botón como un hipervínculo, haciendo
+            que disminuya su importancia.
+
+        </button> 
+
+          </div> 
+
+        </form>
+    
+      </div> 
+
+      <hr>
+
+      <div class="container">
+
+        <form>
+
+           <button type="submit" class="btn btn-primary btn-sm">btn-sm :  pequeño</button> 
+
+           <button type="submit" class="btn btn-primary btn-lg">btn-lg :  grande</button>
+
+           <button type="submit" class="btn btn-primary"> normal</button>
+
+           <hr>
+
+           <button type="submit" class="btn btn-primary btn-sm btn-block">btn-sm btn-block:  pequeño</button>
+
+           <button type="submit" class="btn btn-primary btn-lg btn-block">btn-lg btn-block:  grande</button> 
+
+           <button type="submit" class="btn btn-primary btn-block">btn-block:  normal</button>  
+
+        </form>
+    
+      </div> 
+
+</body>
+
+</html>
